@@ -1,28 +1,3 @@
-server:
-  port: 10090
-
-spring:
-  application:
-    name: usgp-servicedemo
-  zipkin:
-    base-url: http://localhost:23000
-    enabled: true
-  cloud:
-    bus:
-      enabled: true
-      trace:
-        enabled: true
-    config:
-      profile: dev
-      label: master
-      discovery:
-        enabled: true
-        service-id: usgp-config
-  #      uri: http://localhost:8888/
-
-feign:
-  hystrix:
-    enabled: true
 
 local:
   nickname: kyobighead.bjguoanfc
