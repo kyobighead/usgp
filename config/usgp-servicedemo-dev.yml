@@ -14,20 +14,15 @@ spring:
         enabled: true
     config:
       profile: dev
+      label: master
       discovery:
         enabled: true
         service-id: usgp-config
-      label: master
-#      uri: http://localhost:8888/
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+  #      uri: http://localhost:8888/
 
 feign:
   hystrix:
     enabled: true
 
 local:
-  nickname: kyobighead.fcbjguoan
+  nickname: kyobighead.bjguoanfc
