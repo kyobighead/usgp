@@ -17,6 +17,7 @@ spring:
       discovery:
         enabled: true
         service-id: usgp-config
+      label: master
 #      uri: http://localhost:8888/
   rabbitmq:
     host: localhost
